@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+myenv/
+venv/
+.env/
+.env.*
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+
+# ---- Chroma Vectorstore ----
+vectorstore/
+!vectorstore/.gitkeep
+
+# ---- Streamlit / Cache ----
+.streamlit/
+logs/
+*.log
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Temporary ----
+*.tmp
+*.bak
+*.swp
