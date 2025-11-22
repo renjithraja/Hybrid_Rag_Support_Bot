@@ -95,6 +95,8 @@ vectorstore
 
 
 ■ Project Structure
+
+
 RAG_SUPPORT_BOT/
 │── app/
 │   ├── __init__.py
