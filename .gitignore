@@ -9,6 +9,7 @@ myenv/
 venv/
 .env/
 .env.*
+.env
 
 # ---- IDE / Editor ----
 .vscode/
