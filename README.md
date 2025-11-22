@@ -98,31 +98,33 @@ vectorstore
 
 
 RAG_SUPPORT_BOT/
-│── app/
+│
+├── app/
 │   ├── __init__.py
 │   ├── query_service.py
 │   └── ui.py
 │
-│── data/
-│   └── manual.pdf         <-- Included in GitHub
+├── data/
+│   └── manual.pdf
 │
-│── ingestion/
+├── ingestion/
 │   ├── __init__.py
 │   ├── build_vectorstore.py
 │   ├── chunker.py
 │   └── pdf_parser.py
 │
-│── rag/
+├── rag/
 │   ├── __init__.py
 │   ├── generator.py
 │   └── retriever.py
 │
-│── vectorstore/           <-- Ignored by Git, created at runtime
+├── vectorstore/        # Created at runtime (ignored)
+│   └── chromadb/       # Generated DB (ignored)
 │
-│── requirements.txt
-│── README.md
-│── .env                   <-- Ignored
-│── .gitignore
+├── .env                # Ignored by Git
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 
 
